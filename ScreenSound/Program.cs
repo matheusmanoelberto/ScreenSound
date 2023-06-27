@@ -8,7 +8,7 @@ Musica musica2 = new Musica();
 musica2.nome = "Isaias 6";
 musica2.artista = "Rodolf Abrante";
 musica2.duracao = 400;
-musica2.disponivel= false;
+musica2.disponivel = false;
 
 musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
