@@ -1,14 +1,16 @@
 ﻿Musica musica1 = new Musica();
-musica1.nome = "Infinitamente";
-musica1.artista = "Novo som";
-musica1.duracao = 300;
-musica1.disponivel = true;
+musica1.Nome = "Infinitamente";
+musica1.Artista = "Novo som";
+musica1.Duracao = 300;
+musica1.Disponivel = true;
+Console.WriteLine(musica1.Disponivel);
 
 Musica musica2 = new Musica();
-musica2.nome = "Isaias 6";
-musica2.artista = "Rodolf Abrante";
-musica2.duracao = 400;
-musica2.disponivel = false;
+musica2.Nome = "Isaias 6";
+musica2.Artista = "Rodolf Abrante";
+musica2.Duracao = 400;
+musica2.Disponivel = false;
+Console.WriteLine(musica2.Disponivel);
 
 musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
