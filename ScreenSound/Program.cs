@@ -1,25 +1,15 @@
-﻿Banda pg = new Banda("PG");
+﻿Episodio ep1 = new(2, "Tecnica de facilitacao", 45);
+ep1.AdicionarConvidados("Maria");
+ep1.AdicionarConvidados("Macelo");
+Console.WriteLine(ep1.Resumo);
 
-Album albumDoPG = new Album("Eu sou livre");
+Episodio ep2 = new(1, "Tecnica de apredizado", 67);
+ep2.AdicionarConvidados("Maria");
+ep2.AdicionarConvidados("Macelo");
+ep2.AdicionarConvidados("Flavia");
 
-Musica musica1 = new Musica(pg, "Quem sou eu?")
-{
-    Duracao = 300,
-    Disponivel = true,
-};
+Podcast podcast = new("Podcast Dev.net", "Matheus");
 
-Musica musica2 = new Musica(pg, "Te vejo")
-{
-    Duracao =  207,
-    Disponivel = false,
-
-};
-
-albumDoPG.AdicionarMusica(musica1);
-albumDoPG.AdicionarMusica(musica2);
-pg.AdicionarAlbum(albumDoPG);
-
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
-albumDoPG.ExibirMusicaDoAlbum();
-pg.ExibirDiscografia();
+podcast.AdicionarEpisodio(ep1);
+podcast.AdicionarEpisodio(ep2);
+podcast.ExibirDetalhes();
