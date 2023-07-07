@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MATEUS\\.nuget\\packages\\": {}
+    "C:\\Users\\t-matheus.berto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MATEUS\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "projectUniqueName": "C:\\Users\\t-matheus.berto\\Documents\\GitHub\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "C:\\Users\\MATEUS\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
-      "packagesPath": "C:\\Users\\MATEUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MATEUS\\source\\repos\\ScreenSound\\ScreenSound\\obj\\",
+      "projectPath": "C:\\Users\\t-matheus.berto\\Documents\\GitHub\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "packagesPath": "C:\\Users\\t-matheus.berto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t-matheus.berto\\Documents\\GitHub\\ScreenSound\\ScreenSound\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MATEUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\t-matheus.berto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
